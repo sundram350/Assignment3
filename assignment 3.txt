@@ -1,0 +1,194 @@
+Ans=1
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N>0)
+        printf("Positive");
+    if(N<=0)
+        printf("Non Positive");
+    return 0;
+}
+
+Ans=2
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N%5==0)
+        printf("Divisiable");
+    else
+        printf("Not Divisiable");
+    return 0;
+}
+
+Ans=3
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N%2==0)
+        printf("Even");
+    else(
+        printf("Odd");
+    return 0;
+}
+
+Ans=6
+int main()
+{
+    int N,M;
+    scanf("%d%d",&N,&M);
+    if(N>M)
+        printf("%d ",N);
+    else if(M>N)
+        printf("%d ",M);
+    else if(M==N)
+        printf("%d ",M);
+    return 0;
+}
+
+Ans=12
+int main()
+{
+    char a;
+    scanf("%c",&a);
+    if(a>='a'&&a<='z')
+        printf("LowerCase");
+    if(a>='A'&&a<='Z')
+        printf("UpperCase");
+    return 0;
+}
+
+Ans=13
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%2==0&&a%3==0)
+        printf(" Divisiable by 2 or 3");
+    else
+        printf(" Not Divisiable ");
+    return 0;
+}
+
+Ans=11
+int main()
+{
+    int Hid,Eng,Mat,San,Com,total;
+    scanf("%d%d%d%d%d",&Hid,&Eng,&Mat,&San,&Com);
+    total=Hid+Eng+Mat+San+Com;
+    if(total/5>33)
+        printf("Passed");
+    else
+        printf("Failed");
+    return 0;
+}
+
+Ans=14
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%7==0&&a%3==0)
+        printf(" Divisiable by 7 or 3");
+    else
+        printf(" Not Divisiable ");
+    return 0;
+}
+
+Ans=15
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N>0)
+        printf("Positive");
+    if(N<0)
+        printf("Negative");
+    if(N==0)
+        printf("Zero");
+    return 0;
+}
+
+Ans=9
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
+        if(a>c)
+            printf("%d Greatest Number is ",a);
+        else
+            printf("%d Greatest Number is ",c);
+    else
+        if(b>c)
+            printf("%d Greatest Number is ",b);
+        else
+            printf("%d Greatest Number is ",c);
+        return 0;
+}
+
+Ans=8
+int main()
+{
+    int year;
+    scanf("%d",&year);
+    if(year%100!=0)
+    {
+        if(year%4==0)
+            printf("Leap Year\n");
+        else
+            printf("Not Leap");
+    }
+    else
+    {
+        if(year%400==0)
+            printf("Leap year\n");
+        else
+            printf("Not Leap\n");
+    }
+}
+
+Ans=4
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N/2*2==N)
+        printf("Even");
+    else
+        printf("Odd");
+    return 0;
+}
+
+Ans=18
+int main()
+{
+    int i,n;
+    scanf("%d",&n);
+    if(1==n)
+        printf("31Days");
+    if(2==n)
+        printf("28Days");
+    if(3==n)
+        printf("31Days");
+    if(4==n)
+        printf("30Days");
+    if(5==n)
+        printf("31Days");
+    if(6==n)
+        printf("30Days");
+    if(7==n)
+        printf("31Days");
+    if(8==n)
+        printf("31Days");
+    if(9==n)
+        printf("30Days");
+    if(10==n)
+        printf("31Days");
+    if(11==n)
+        printf("30Days");
+    if(12==n)
+        printf("31Days");
+}
